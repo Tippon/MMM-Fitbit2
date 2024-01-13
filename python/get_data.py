@@ -263,8 +263,8 @@ if __name__ == "__main__":
             # --------------
             print_data(
                 resource="caloriesIn",
-                data=max(int(calories_in_goal - calories_in_current), 0),
-                goal=0
+                data=max(int(calories_in_current), 0),
+                goal=calories_in_current - calories_in_goal
             )
         except KeyError as err:
             handle_key_error(err, "caloriesIn")
@@ -289,8 +289,8 @@ if __name__ == "__main__":
             # --------------
             print_data(
                 resource="water",
-                data=max(int(round(water_remaining_today_ml)), 0),
-                goal=0
+                data=max(int(round(water_goal_today_ml - water_remaining_today_ml)), 0),
+                goal=water_goal_today_ml
             )
         except KeyError as err:
             handle_key_error(err, "water")

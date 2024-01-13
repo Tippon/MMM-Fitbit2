@@ -5,6 +5,7 @@
  *
  * Forked from MMM-fitbit by Sam Vendittelli
  * MMM-Fitbit2 modifications by Mike Roberts
+ * Modifications to MMM-Fitbit2 by Tippon
  * MIT Licensed.
  */
 
@@ -54,7 +55,7 @@ Module.register("MMM-Fitbit2", {
 		sleep: {
 			value: 0,
 			goal: 480,
-			unit: "" // Formatted as HH:MM - no explicit unit
+			unit: "hours" // Formatted as HH:MM - no explicit unit
 		},
 		weight: {
 			value: 0,
