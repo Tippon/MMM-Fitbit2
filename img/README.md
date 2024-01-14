@@ -20,3 +20,5 @@
 [water.png](water.png): [Water Bottle by Vectors Market from the Noun Project](https://thenounproject.com/term/water-bottle/2170588/)
 
 [weight.png](weight.png): [Scale by Bakunetsu Kaito from the Noun Project](https://thenounproject.com/term/scale/990543/)
+
+[sugar.png](sugar.png): [sugar blood level by Komkrit Noenpoempisut from the Noun Project](https://thenounproject.com/icon/sugar-blood-level-3468231/)
