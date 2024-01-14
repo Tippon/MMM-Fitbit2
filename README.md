@@ -1,5 +1,7 @@
 MMM-Fitbit2
 ===
+### _This is my fork to add my preferred personalisations and to help me to learn more about JavaScript and Python by experimenting. There's a decent chance that I'll break something and not know how to fix it, so I wouldn't recommend coying me - Tippon.
+
 ### _Current Development Status: Work In Progress_
 (_Work to be done is identified and tracked [here](https://github.com/m-roberts/MMM-Fitbit2/projects)_)
 
