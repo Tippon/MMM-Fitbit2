@@ -7,6 +7,7 @@
 
 var NodeHelper = require("node_helper");
 const PythonShell = require("python-shell");
+const cvt = require("csvtojson");
 
 module.exports = NodeHelper.create({
 
