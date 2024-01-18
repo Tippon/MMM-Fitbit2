@@ -9,6 +9,11 @@ var NodeHelper = require("node_helper");
 const PythonShell = require("python-shell");
 const cvt = require("csvtojson");
 
+cvt().fromFile(payload.tmpfile) // input xls  // changed to tmpfile
+	.subscribe((jsonObj, index) => { 
+// handle each row
+	})
+
 module.exports = NodeHelper.create({
 
 	// Subclass socketNotificationReceived received.
